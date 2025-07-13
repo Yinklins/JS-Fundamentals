@@ -1,0 +1,1 @@
+This is my first file in JS and its amaizing to be on this stage.
