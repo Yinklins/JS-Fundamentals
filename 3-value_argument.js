@@ -5,5 +5,5 @@ if (args[0] === undefined){
 } else if (args[1]===undefined){
     console.log(args[0]);
 }else {
-    console.log("First argument:" + args[0]);
+    console.log(args[0]);
 }
