@@ -1,8 +1,3 @@
-const speak = function(name, index,){
-    console.log(`${name} is ${index}`);
-}
+const args = process.argv.slice(2);
 
-
-speak("c","cool");
-speak('c','undefined');
-speak('undefined','undefined');
+console.log(args[0] + ' is ' + args[1]);
