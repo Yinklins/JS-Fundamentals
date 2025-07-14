@@ -1,4 +1,4 @@
-let args = ['node','hello', "oyin"];
+let args = ['node',];
 
 if (args.length >= 3){
     console.log("Argument found");    
