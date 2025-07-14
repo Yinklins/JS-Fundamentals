@@ -1,4 +1,4 @@
-const args = ['node', 'hello']
+const args = ['node', 'hello', "test"]
 
 if (args.length === 0){
      console.log("No argument")
