@@ -1,4 +1,6 @@
-let args = ['node',];
+const args = process.argv.slice(2);
+
+// let args = ['node',];
 
 if (args.length >= 3){
     console.log("Argument found");    
@@ -8,8 +10,8 @@ if (args.length >= 3){
     console.log('No Argument');
 };
 
-args.forEach(function(arguments){
-    console.log(arguments);
-});
+// args.forEach(function(arguments){
+//     console.log(arguments);
+// });
 
 
