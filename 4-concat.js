@@ -3,6 +3,6 @@ const speak = function(name, index){
 }
 
 
-speak("python","fun");
+speak("Python","fun");
 speak("HBTN","Undefined");
 speak("undefined", "undefined");
