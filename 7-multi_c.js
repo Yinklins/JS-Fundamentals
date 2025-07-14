@@ -1,11 +1,7 @@
 const count = parseInt(process.argv[2]);
+let i = 0;
 
-if (isNaN(count)) {
-    console.log('Missing number of occurrences');
-}else{
-    let i = 0;
-    while(i<count){
-        console.log('c is fun')
-        i++;
-    }
+while (i < (isNaN(count) ? 1 : count)) {
+  console.log(isNaN(count) ? 'Missing number of occurrences' : 'C is fun');
+  i++;
 }
