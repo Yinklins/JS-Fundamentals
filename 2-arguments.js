@@ -1,9 +1,11 @@
-const args = process.args.slice("2")
+const args = ['node', 'hello']
 
 if (args.length === 0){
-    console.log("No Argument found");
+     console.log("No argument")
 }else if (args.length === 1){
-    console.log("Argument found");
-}else{
-    console.log("Arguments found");
-}
+    console.log("Argument found")
+}else {console.log("Arguments found")};
+
+    args.forEach ((arg, index) => {
+        console.log(`Argument ${index+1}: ${arg}`);
+    })
